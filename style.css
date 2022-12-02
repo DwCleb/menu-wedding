@@ -49,3 +49,9 @@ footer {
   display: flex;
   flex-direction: row;
 }
+
+span {
+  font-size: 10pt;
+  margin-top: 10px;
+  margin-bottom:-40px;
+}
