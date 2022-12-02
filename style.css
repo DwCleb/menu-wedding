@@ -1,6 +1,12 @@
 @font-face{
   font-family: 'Italianno';
-  src: url('/Italianno-Regular.ttf') format('truetype');
+  src: url('./Italianno-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Roboto';
+  src: url('./Roboto-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,6 +17,7 @@ body {
   justify-content:center;
   min-height:100vh;
   text-align: center;
+  font-family: 'Roboto';
 }
 
 h1 {
